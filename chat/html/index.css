@@ -1,0 +1,171 @@
+
+* {
+  font-family: neonfont;
+  font-size: 1.40vh;
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+	font-family: Frank;
+	src: url('./franklin.ttf');
+}
+
+@font-face {
+  font-family: neonfont;
+  src: url("https://cdn.discordapp.com/attachments/839958624340148314/1044324432954523682/Sansation_Regular.ttf");
+}
+
+#app {
+  font-family: neonfont;
+  color: white;
+}
+
+.chat-window {
+  position: absolute;
+  top: 3.5%;
+  left: 1.5%;
+  width: 22%;
+  height: 15%;
+  max-width: 1000px;
+  background-color: rgba(0, 0, 0, 0.0);
+  -webkit-animation-duration: 2s;
+}
+
+.messagebox{
+  padding: 0px;
+  margin-bottom: 0px;
+  width: fit-content;
+}
+
+.message {
+  margin-left: 5px;
+  color: white;
+
+}
+
+.chat-messages {
+  font-family: neonfont;
+  /* font-weight: bold; */
+  position: relative;
+  height: 95%;
+  font-size: 1.20vh;
+  margin: 0.2%;
+  text-shadow: 1px 1px black;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.chat-input {
+  font-family: neonfont;
+  /* font-weight: bold; */
+  font-size: 1.40vh;
+  position: absolute;
+  border-radius: 5px; 
+  top: 30%;
+  left: 0.8%;
+  width: 38%;
+  max-width: 1000px;
+  box-sizing: border-box;
+}
+
+.prefix {
+  font-family: neonfont;
+  font-weight: bold;
+  font-size: 1.6vh;
+  position: absolute;
+  margin-top: 0.7%;
+  margin-left: 1.5%;
+  left: 0.208%;
+}
+
+textarea {
+  font-family: neonfont;
+  font-size: 1.40vh;
+  box-sizing: border-box;
+  padding: 1%;
+  padding-left: 3.5%;
+  color: white;
+  border-radius: 0.3vh;
+  background: rgba(0, 0, 0, 0.781);
+  border-left: 0.3vw solid white;
+  border-top: 0.1vw solid white;
+  border-right: 0.1vw solid white;
+  border-bottom: 0.1vw solid white;
+  width: 80%;
+  height: 21.04%;
+  resize: none;
+  overflow: hidden;
+  outline: none;
+}
+
+textarea:focus, input:focus {
+    outline: none;
+}
+
+.multiline {
+  font-family: neonfont;
+  white-space: pre-line;
+}
+
+.me_box {
+  background-color: rgba(0, 0, 0, 0.719);
+  padding: 0.1vw;
+  padding-left: 0.2vw;
+  margin-top : .2vw;
+  margin-bottom : .2vw;
+  border-left: 0.3vw solid red;
+  border-top: 0.1vw solid red;
+  border-right: 0.1vw solid red;
+  border-bottom: 0.1vw solid red;
+  width: fit-content;
+}
+
+.do_box {
+  background-color: rgba(0, 0, 0, 0.719);
+  padding: 0.1vw;
+  padding-left: 0.2vw;
+  margin-top : .2vw;
+  margin-bottom : .2vw;
+  border-left: 0.3vw solid rgb(0, 153, 255);
+  border-top: 0.1vw solid rgb(0, 153, 255);
+  border-right: 0.1vw solid rgb(0, 153, 255);
+  border-bottom: 0.1vw solid rgb(0, 153, 255);
+  width: fit-content;
+}
+
+.oop_box {
+  background-color: rgba(0, 0, 0, 0.719);
+  padding: 0.1vw;
+  padding-left: 0.2vw;
+  margin-top : .2vw;
+  margin-bottom : .2vw;
+  border-left: 0.3vw solid rgb(124, 124, 124);
+  border-top: 0.1vw solid rgb(124, 124, 124);
+  border-right: 0.1vw solid rgb(124, 124, 124);
+  border-bottom: 0.1vw solid rgb(124, 124, 124);
+  width: fit-content;
+}
+
+.suggestions {
+  font-family: neonfont;
+  list-style-type: none;
+  padding: 10px;
+  margin-top : .3vw;
+  font-size: 1.40vh;
+  box-sizing: border-box;
+  color: white;
+  border-radius: 0.3vh;
+  background: rgba(0, 0, 0, 0.781);
+  box-shadow: 0 0 4px #000000;
+  overflow: hidden;
+  width: 80%;
+}
+
+.suggestion {
+  margin-bottom: 0.5%;
+}
+
+.hidden {
+  display: none;
+}
